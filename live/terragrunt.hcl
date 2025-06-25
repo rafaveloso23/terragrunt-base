@@ -7,9 +7,9 @@ locals {
 
   # AWS Organizations Accounts
   account_mapping = {
-    dev             = "497503349557"
-    prd             = "445525869619"
-    shared-services = "431021103958"
+    dev             = ""
+    prd             = ""
+    shared-services = ""
   }
   # IAM Roles to Assume
   account_role_name = "apps-terraform-execution-role" # <--- Role to Assume
